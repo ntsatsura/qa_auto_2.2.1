@@ -21,21 +21,33 @@ console.log(divideBalanceByAccounts(3000, 2, 4000));
 console.log(getRestAfterDivision(7000, 3));
 
 // пример инкремента 1
-let inc1 = 5;
-inc1++;
-console.log(inc1);
+function exampleIncrement1(inc1) {
+  inc1++;
+  return inc1;
+}
+
+console.log(exampleIncrement1(5));
 
 // пример инкремента 2
-let inc2 = 5;
-++inc2;
-console.log(inc2);
+function exampleIncrement2(inc2) {
+  ++inc2;
+  return inc2;
+}
+
+console.log(exampleIncrement2(5));
 
 // пример декремента 1
-let decr1 = 5;
-decr1--;
-console.log(decr1);
+function exampleDecrement1(decr1) {
+  decr1--;
+  return decr1;
+}
 
-// пример декремента 1
-let decr2 = 5;
---decr2;
-console.log(decr2);
+console.log(exampleDecrement1(5));
+
+// пример декремента 2
+function exampleDecrement2(decr2) {
+  --decr2;
+  return decr2;
+}
+
+console.log(exampleDecrement2(5));
