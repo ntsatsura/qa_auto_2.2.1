@@ -1,22 +1,22 @@
 function increaseBalance(x, y) {
-  let x1 = x + y;
-  return x1;
+  x += y;
+  return x;
 }
 
 function decreaseBalance(x, y) {
-let x2 = x - y;
-return x2;
+ x -= y;
+return x;
 }
 
 function divideBalanceByAccounts(x, y, z) {
-let balance = x + z 
-let x3 = balance /= y;
-return x3;
+let balance = x + z
+balance /= y;
+return balance;
 }
 
 function getRestAfterDivision(x, y) {
-  let x4 = x % y;
-  return x4;
+x %= y;
+  return x;
 }
 
 let resultIncreaseBalance = increaseBalance(3000, 700);
