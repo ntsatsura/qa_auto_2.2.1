@@ -28,3 +28,25 @@ console.log(resultIncreaseBalance);
 console.log(resultDecreaseBalance);
 console.log(resultDivideBalanceByAccounts);
 console.log(resultGetRestAfterDivision);
+
+
+// пример инкремента 1
+let inc1 = 5;
+inc1++;
+console.log(inc1); 
+
+// пример инкремента 2
+let inc2 = 5;
+++inc2;
+console.log(inc2); 
+
+
+// пример декремента 1
+let decr1 = 5;
+decr1--;
+console.log(decr1); 
+
+// пример декремента 1
+let decr2 = 5;
+--decr2;
+console.log(decr2); 
